@@ -27,7 +27,6 @@ const PORT = process.env.PORT || 5001;
 
 app.use(express.json());
 app.use(cors());
-const MONGODB_URI="mongodb+srv://Gaurav5327:Gaurav5327@cluster0.prt6g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose
   .connect(MONGODB_URI, {
     useNewUrlParser: true,
